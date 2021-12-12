@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" name="cad_cartao/css" href="cad_cartao_credito.css">
+    <title>Cadastro - Cartão de Crédito</title>
+</head>
+<body>
+   <main class="cad__cartao">
+      <div class="cartao__container">
+         <h1 class="cartao__title">Solicitação de Cartão</h1>     
+         <form name="cartao__form" action="cad_cartao_credito.php" method="POST">
+            <input class="credito__input" type="text" name="nome" placeholder="Digite seu nome" required>
+            <span class="credito__input-border"></span>
+            <input class="credito__input" type="text" name="cpf" placeholder="Digite seu cpf" required> 
+            <span class="credito__input-border"></span>
+            <input class="credito__input" type="text" name="rg" placeholder="Digite seu rg" required>
+            <span class="credito__input-border"></span>
+            <input class="credito__input" type="text" name="nome_pai" placeholder="Digite o nome do seu pai" required>
+            <span class="credito__input-border"></span>
+            <input class="credito__input" type="text" name="nome_mae" placeholder="Digite o nome da sua mãe" required>
+            <span class="credito__input-border"></span>
+            <input class="credito__input" type="text" name="contato" placeholder="Digite seu contato" required>
+            <span class="credito__input-border"></span>
+            <input class="credito__input" type="text" name="endereco" placeholder="Digite seu endereço" required>
+            <span class="credito__input-border"></span>
+            <div class="divion">
+               <strong class="cartao__title2">Estado Cívil:</strong>
+               <br>      
+               <select class="select" name="estado_civil" required>
+               <option value="Solteiro (a)">Solteiro (a)</option>
+               <option value="Casado (a)">Casado (a)</option>
+               <option value="Divorciado (a)">Divorciado (a)</option>
+               <option value="Viúvo (a)">Viúvo (a)</option>
+               </select> 
+            </div>                      
+            <div class="divion">      
+              <form>
+              <strong class="cartao__title2">Data de nascimento:</strong> 
+              <br>
+              <input class="select2" type="date" name="nascimento" placeholder="Digite sua Idade" required>
+              </form>   
+            <br>
+            <div>
+            <div class="divion">
+            <strong class="cartao__title2">Grau de Escolaridade:</strong>
+            <select class="select" name="escolaridade" required>
+            <option value="Fundamental - Incompleto">Fundamental - Incompleto</option>
+            <option value="Fundamental - completo">Fundamental - completo</option>
+            <option value="Médio - Incompleto">Médio - Incompleto</option>
+            <option value="Médio - Completo">Médio - Completo</option>
+            <option value="Superior - Incompleto">Superior - Incompleto</option>
+            <option value="Superior - Completo">Superior - Completo</option>
+            <option value="Técnico - Incompleto">Técnico - Incompleto</option>
+            <option value="Técnico - Completo">Técnico - Completo</option>
+            </select>
+            </div>                     
+            <input class="credito__input" type="text" name="profissao" placeholder="Digite sua profissão" required> 
+            <span class="credito__input-border"></span>
+            <input class="credito__input" type="text" name="renda" placeholder="Digite sua renda" required>
+            <span class="credito__input-border"></span>
+            <button class="cartao__submit" type="submit">Enviar</button>            
+         </form>                
+      </div>
+   </main>
+</body>
+</html>

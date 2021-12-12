@@ -1,0 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(120deg, #0fee0f, #0e20c7);
+    padding-left: 50%;
+    padding-top: 100px; 
+}

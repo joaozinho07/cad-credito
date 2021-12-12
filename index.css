@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.login{
+    height: 100vh;
+    background: linear-gradient(120deg, #0fee0f, #0e20c7);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.login__container{
+    min-height: 300px; 
+    width: 400px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 90px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.login__title{
+    margin-bottom: 32px;
+    color: #303030;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.title{
+    margin-top: 30px;
+    margin-bottom: 32px;
+    color: #303030;
+    font-size: 18px;
+    display: flex;
+}
+
+.login__form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+/*
+.login__input{
+    
+     height: 48px;
+     width: 100%;
+     box-sizing: border-box;
+     padding-left: 8px;
+     border: unset;
+     outline: none;
+}
+.login__input-border{
+    height: 2px;
+    width: 100%;
+    margin-bottom: 16px;
+    background-color: #cfcfcf;
+    transition: .3s ease-in-out;
+    background: linear-gradient(160deg, #0fee0f, #0e20c7, #0fee0f);
+    
+}
+
+
+.login__input-border::after{
+    content: '';
+    display: black;
+    height: 1px;
+    width: 0;
+    margin-bottom: 16px;
+    background: linear-gradient(120deg, #0fee0f, #0e20c7);
+    transition: .3s ease-in-out;
+}
+*/
+.login__submit {
+    height: 48px;
+    width: 100%;
+    outline: none;
+    background: linear-gradient(160deg, #0fee0f, #0e20c7, #0fee0f);
+    background-size: 360px;
+    margin-bottom: 32px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.login__submit:hover {
+    background-position:right;
+}
+
+.login__reset{
+    font-size: 20px;
+    color: #929292;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.login__cadastre-se{
+    font-size: 20px;
+    color: #929292;
+    text-decoration: none;
+   
+}
